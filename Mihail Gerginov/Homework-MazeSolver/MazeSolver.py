@@ -23,7 +23,7 @@ def solve_maze(maze, row = 0, col = 0, current_path = '', should_trace_all_paths
 
 
         if should_trace_all_paths:
-			#After all the recursion calls have passed, we mark the cell back as unvisited.			
+	#After all the recursion calls have passed, we mark the cell back as unvisited.			
             maze[row][col] = ' '
 
 
